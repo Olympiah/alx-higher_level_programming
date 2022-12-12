@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-word = "Holberton"
-
 def add_tuple(tuple_a=(), tuple_b=()):
     new_tuple = ()
     tuple_1 = tuple_a + (0, 0)
@@ -9,8 +7,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
     new_tuple = tuple_1[0] + tuple_2[0], tuple_1[1] + tuple_2[1]
     return new_tuple
 
-print(f"First 3 letters: {word_first_3}")
-
-print(f"Last 2 letters: {word_last_2}")
-
-print(f"Middle word: {middle_word}")
